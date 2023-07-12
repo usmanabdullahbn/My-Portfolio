@@ -1,0 +1,71 @@
+.about-section {
+    background-color: #e6e6e6;
+    text-align: center; /* Center-align the text */
+    padding-bottom: 15px;
+}
+
+.container-about {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; /* Center-align the text */
+  }
+  
+.h2-about {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .p-about {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .skills-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 20px; */
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center; /* Center-align the text */
+  }
+  .bar {
+    width: 400px;
+    margin: 5px;
+  }
+ 
+  @media (max-width: 1020px) {
+    .h2-about {
+      font-size: 20px;
+    }
+    .p-about {
+      font-size: 14px;
+      line-height: 1;
+ 
+    }
+  
+    .bar {
+      width: 100%;
+    }
+    .skills-section{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 100%;
+      
+      
+    }
+    
+  }
+   
+  
+  
+  
+  
+  
+  
+  
+  

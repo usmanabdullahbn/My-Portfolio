@@ -1,0 +1,25 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #e6e6e6;
+    padding: 20px;
+  }
+  .h2-about {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .info-item {
+    display: flex;
+    align-items: center;
+    color: #313bac;
+    padding: 5px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    color: #313bac;
+  }
+  
