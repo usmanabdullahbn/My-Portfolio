@@ -110,15 +110,17 @@
   }
 
   .container {
-    margin: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   .icon-container {
     justify-content: center;
   }
 
-  .button-container {
-    text-align: center;
+ .button-home{
+    display: none;
   }
   .img-container{
     display: none;

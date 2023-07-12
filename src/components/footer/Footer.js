@@ -9,9 +9,7 @@ const Footer = () => {
       <h1 className="my-name">Usman Abdullah</h1>
       <p className="footer-text">
         Thank you for visiting the website. I hope you were able to find what
-        you were looking for. If you <br />
-        have any further questions or need any assistance, feel free to let me
-        know.
+        you were looking for.
       </p>
       <div className="social-links">
           <a href="mailto:usmanabdullahbn@gmail.com" target="_blank" rel="noopener noreferrer">

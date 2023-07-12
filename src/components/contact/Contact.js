@@ -47,7 +47,7 @@ const sendMsgHandler = () => {
         onChange={handleChange}
         required
       ></textarea>
-      <button type="submit" className='button-contact' onClick={sendMsgHandler}>Send Massage</button>
+      <button type="submit" className='button-contact' onClick={sendMsgHandler}>Send</button>
     </form>
    </div>
   );
