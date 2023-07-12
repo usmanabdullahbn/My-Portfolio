@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div class="about-section">
         <div class="container-about">
-          <h2 className="h2-about">About Me</h2>
+          <h2 className="h2-about">About <span className="me-about">Me</span>!</h2>
           <p className="p-about">
             As a dedicated O-Level student, I am currently expanding my skillset
             to encompass full-stack development. With a strong foundation in

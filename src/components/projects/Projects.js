@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="projects-section">
         <div className="container-projects">
           <h2 className="h2-projects">
-            My Creative <span className="portfolio">Portfolio</span> <br />{" "}
+            My Creative <span className="portfolio">Projects</span> <br />{" "}
             <span className="showcase">Showcase!</span>
           </h2>
           <div className="project-filters">

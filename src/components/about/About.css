@@ -14,9 +14,11 @@
 .h2-about {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333;
+    color: #6a6a6a;
   }
-  
+  .me-about {
+    color: #313bac;
+  }
   .p-about {
     font-size: 18px;
     line-height: 1.6;

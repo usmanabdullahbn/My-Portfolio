@@ -20,7 +20,8 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <h1 className="h1-text">Welcome to My Portfolio!</h1>
+        <h1 className="h1-text">Welcome to <span className="home-span"> My</span> <br />{" "}
+            <span className="portfolio-home">Portfolio</span></h1>
         <p className="p-info">
           I am a passionate Front End developer with expertise in web
           development. I specialize in building modern and responsive websites

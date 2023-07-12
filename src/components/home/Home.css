@@ -2,7 +2,7 @@
   display: flex;
   border: var(--white-color);
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   flex-direction: row;
   padding: 1rem 2rem;
   width: auto;
@@ -10,13 +10,13 @@
   top: 120px;
   left: 100px;
 }
-.span{
+.span {
   font-size: 2.5rem;
   text-align: left;
 }
 .p-text {
   color: var(--gray-color);
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -25,12 +25,11 @@
   font-weight: 800;
   text-align: right;
   text-transform: capitalize;
-
 }
 
 .home-section {
   position: relative;
-  background-color: #EDF2F8;
+  background-color: #edf2f8;
   display: flex;
   padding-top: 100px;
   flex-direction: row;
@@ -42,20 +41,24 @@
   max-width: 500px;
   text-align: left;
   margin-left: 100px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-
 
 .h1-text {
   font-size: 32px;
   margin-bottom: 20px;
+  color: #333;
 }
-
-.p-info{
+.home-span {
+  color: #313bac;
+}
+.portfolio-home{
+  color: #6a6a6a;
+}
+.p-info {
   font-size: 18px;
   margin-bottom: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   color: #333333;
 }
@@ -70,10 +73,8 @@
 .icon {
   font-size: 24px;
   margin-right: 8px;
-  color: #333; 
+  color: #333;
 }
-
-
 
 .button-home {
   padding: 10px 20px;
@@ -90,7 +91,6 @@
 }
 
 .img-container {
-
   max-width: 400px;
   margin: 0 auto;
   text-align: right;
@@ -119,16 +119,30 @@
     justify-content: center;
   }
 
- .button-home{
+  .button-home {
     display: none;
   }
-  .img-container{
-    display: none;
+  .img-container {
+    display: block;
   }
 }
 
 @media (max-width: 1020px) {
-  .name{
-    display: none;
+  .name {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    padding: 1rem;
+    margin-right: 200px;
+    width: 150px;
+ 
+  }
+  .head-text {
+    font-size: 1.5rem;
+  }
+  .span {
+    font-size: 2rem;
   }
 }
