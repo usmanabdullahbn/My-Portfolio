@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -20,6 +20,9 @@ const Footer = () => {
           </a>
           <a href="https://github.com/usmanabdullahbn" target="_blank" rel="noopener noreferrer">
           <FaGithub />
+          </a>
+          <a href="https://www.instagram.com/usmanabdullahbn" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
           </a>
         </div>
       <p>© Copyright UsmanAbdullah. All Rights Reserved</p>
