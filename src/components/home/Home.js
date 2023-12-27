@@ -24,7 +24,7 @@ const Home = () => {
             <span className="portfolio-home">Portfolio</span></h1>
         <p className="p-info">
           I am a passionate Front End developer with expertise in web
-          development. I specialize in building modern and responsive websites
+          development. I specialize in building modern and responsive applications
           using Raect Js.
           <span className="icon-container">
         <FontAwesomeIcon icon={faHtml5} className="icon" title="HTML5" style={{color: "#E44D26"}} />

@@ -12,7 +12,7 @@ const ContactForm = () => {
   };
 
 const sendMsgHandler = () => {
-  alert("Sorry! Form is not working. Please take a cup of tea send email to me or whatapp me!")
+  alert("Sorry! Form is not working. Please take a cup of tea and send email to me or whatapp me!")
   setFormData({
     name: '',
     email: '',

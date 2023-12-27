@@ -8,11 +8,13 @@ import biddingApp from "../assert/bidding app.png";
 import todoJs from "../assert/todo list js.png";
 import stopwatch from "../assert/stop time watch.png";
 import appleClone from "../assert/screencapture-apple-clone-page-web-app-2023-07-12-00_20_03.png";
+import L2lLogo from "../assert/L2L Logo.png";
+import ChatbotLogo from "../assert/chatbot img.png";
 
 const Projects = () => {
   const [reactProject, setReactProject] = useState("block");
-  const [jsProject, setJsProject] = useState("block");
-  const [landingPage, setLandingPage] = useState("block");
+  const [jsProject, setJsProject] = useState("none");
+  const [landingPage, setLandingPage] = useState("none");
 
   const all = () => {
     setReactProject("block");
@@ -120,6 +122,48 @@ const Projects = () => {
                 </p>
               </a>
             </div>
+
+            {/* AI Chatbot🤖!  */}
+            <div className="project" style={{ display: reactProject }}>
+              <a href="https://ai-chatbot-917d5.web.app/" target="_blank">
+                <img
+                  src={ChatbotLogo}
+                  style={{ height: "100px" }}
+                  alt="Chatbot Logo"
+                />
+                <h2>AI Chatbot🤖! </h2>
+                <p>
+                  The "ChatGenius" AI Chatbot is a cutting-edge web application
+                  crafted using OpenAI's API, Vite, and React. Its capabilities
+                  span from answering queries to providing information, making
+                  it a versatile addition to digital interactions. With an
+                  intuitive interface and powerful AI backend, ChatGenius
+                  exemplifies the seamless fusion of technology and user
+                  engagement. Explore the future of chatbots in the realm of
+                  Vite and React with ChatGenius!
+                </p>
+              </a>
+            </div>
+            
+            {/* Voting app */}
+            <div className="project" style={{ display: reactProject }}>
+              <a href="https://voting-app-76441.web.app" target="_blank">
+                <img src={L2lLogo} style={{ height: "100px" }} alt="L2L Logo" />
+                <h2>Voting App!</h2>
+                <p>
+                  The "L2L Elections 2023-24 Voting App" is a web application
+                  designed for school elections. It enables students to view a
+                  list of candidates running for various positions, including
+                  Finance Manager, Event Coordinator, Stem Head, Literary Head,
+                  Sport Head, and their deputies. Users can cast votes for each
+                  role, and the app ensures that all positions are filled for a
+                  valid vote. Real-time, as students vote, the app provides
+                  real-time updates on the number of votes each candidate
+                  receives.
+                </p>
+              </a>
+            </div>
+
             {/* Project 2 */}
             <div className="project" style={{ display: reactProject }}>
               <a
