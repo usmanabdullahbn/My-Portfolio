@@ -10,6 +10,7 @@ import stopwatch from "../assert/stop time watch.png";
 import appleClone from "../assert/screencapture-apple-clone-page-web-app-2023-07-12-00_20_03.png";
 import L2lLogo from "../assert/L2L Logo.png";
 import ChatbotLogo from "../assert/chatbot img.png";
+import adminDashboardLogo from "../assert/admin-dashboard.png";
 
 const Projects = () => {
   const [reactProject, setReactProject] = useState("block");
@@ -141,6 +142,20 @@ const Projects = () => {
                   exemplifies the seamless fusion of technology and user
                   engagement. Explore the future of chatbots in the realm of
                   Vite and React with ChatGenius!
+                </p>
+              </a>
+            </div>
+            {/* Admin Dashboard!  */}
+            <div className="project" style={{ display: reactProject }}>
+              <a href="https://admin-dashboard-eight-ruby.vercel.app/" target="_blank">
+                <img
+                  src={adminDashboardLogo}
+                  style={{ height: "100px" }}
+                  alt="dashboard Chatbot Logo"
+                />
+                <h2>Admin' Dashboard </h2>
+                <p>
+                Dashboard App is designed specifically for e-commerce stores, equipped with dynamic Charts & Apps. Developed using TypeScript, Sass, and React Table, this comprehensive solution offers seamless management of your online store operations. Gain valuable insights through intuitive analytics, enabling informed decision-making for enhanced performance and growth.
                 </p>
               </a>
             </div>
